@@ -44,8 +44,7 @@ module.exports = {
         .dividedBy(total)
         .multipliedBy(tokensToMint)
         .toFixed(18)
-        .toString()
-        .replace('.', ''),
+        .toString(),
     ]);
   },
 };
