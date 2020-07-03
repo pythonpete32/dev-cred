@@ -38,7 +38,6 @@ module.exports = {
       .reduce((acc, val) => BigNumber(acc).plus(BigNumber(val)).toString());
   },
   normalisedGrain: (whitelist, total, tokensToMint) => {
-    // TODO: Remove users with score of '0'
     return whitelist.map((user) => [
       user[0],
       BigNumber(user[1])
