@@ -1,6 +1,6 @@
 # dev-cred
 
-1. add custom labels as `addressbook.json`
+1. add eligible as `addressbook.json`
 2. run Sourcecred
 ```
 SOURCECRED_GITHUB_TOKEN="GIT_HUB_TOKEN" \
